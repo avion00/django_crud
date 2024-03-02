@@ -14,3 +14,5 @@ def home(request):
     
     img = Image.objects.all()
     return render(request, 'index.html', {'img': img, 'form': form})
+
+
